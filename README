@@ -1,0 +1,15 @@
+this a liquidity provider token contracts for the launchpad
+it has 2 functions
+        a)deposit function for depositing funds to the contracts below is the formular
+            if no token has been bought before: AmountOfLP=AmoutOfTKN
+            
+            if token has been bought before: AmountOfLP=(AmoutOfTKN*TotalSupplyLP-TKN)/BalanceLP-TKN
+
+        after that LP token is wired to sender wallet address
+
+
+        b)Withdrawal function this for selling your LP tokens formulae below
+            amountToken = (amountLPToken * balanceToken) / supplyLPToken
+
+        then LP tokens is then burnable.
+
